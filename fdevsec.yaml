@@ -2,6 +2,13 @@ id:
   org: ee4b7b38-019f-484b-ba22-1ed8dc4d051a
   app: 45528293-d1e2-4096-9068-6eda6b71a86d
 
+  scanners:
+ - sast
+ - secret
+ - sca
+ - iac
+ - container
+
 # If below settings are not configured, scans will be performed for all supported scanners.
 # scanners:
 #   - sast
